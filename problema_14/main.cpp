@@ -14,10 +14,13 @@ int main()
     cout<<"La matriz inicial es:"<<endl;
     imprimir(pointer);
     matriznove(pointer);
-    cout<<"La matriz rotada noventa grados es: "<<endl;
+    cout<<"La matriz rotada 90 grados es:"<<endl;
     imprimir(pointer);
-    cout<<"La matriz rotada ciento ochenta grados es: "<<endl;
+    cout<<"La matriz rotada 180 grados es:"<<endl;
     matrizochen(pointer);
+    imprimir(pointer);
+    cout<<"La matriz rotada 270 grados es:"<<endl;
+    matrizseten(pointer);
     imprimir(pointer);
 
 
